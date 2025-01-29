@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 760px;
+    width: 100%;
+    background-color: rgb(242, 244, 247);
+    padding: 72px 0px 112px 0px;
+}
+.content {
+    height: 536px;
+    display: flex;
+    padding: 20px 0px;
+    background-color: rgb(242, 244, 247);
+    margin: 0 40px;
+}
+.welcome {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    margin-left: 90px;
+    margin-top: 85px;
+}
+.welcome__logo {
+    width: 321px;
+    margin: -3px -28px;
+    line-height: 16px;
+}
+.welcome__text h2{
+    line-height: 28px;
+    font-size: 27px;
+    letter-spacing: normal;
+    width: 450px;
+    height: 84px;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-weight: 400;
+}
+.login {
+    width: 396px;
+    height: 314px;
+    font-size: 12px;
+    line-height: 16px;
+    min-height: 150px;
+    margin-top: 33px;
+    margin-left: 70px;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    float: right;
+}
+.form {    
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 1px rgba(184, 184, 184, 0.52);
+    align-items: center;
+    height: 348px;
+    
+}
+
+.form__input-box {
+    margin: 20px 0px;
+    width: 364px;
+    height: 55px;
+    border-radius: 6px;
+    height: 51px;
+    border-color: rgba(159, 175, 199, 0.5);
+    
+    border-width: 0.7px;
+}
+.email {
+    margin-bottom: 7px;
+    
+}
+.password {
+    margin-top: 7px;
+}
+.form__input {
+    width: 100%;
+    height: 100%;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: rgb(145, 145, 145);
+    border-radius: 6px;
+    border: none;
+    border-color: rgb(221, 223, 226);
+}
+
+.form__input:focus {
+    border: 1px solid rgb(25, 113, 245);
+    outline: none;
+}
+
+.form__input:focus::placeholder{
+    color: rgb(174, 174, 174);
+}
+
+.form__btn {
+    width: 364px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+}
+.btn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    border: none;
+    cursor: pointer;
+}
+.form__forgot-password-link {
+    margin-top: 16px;
+}
+.forgot-password-link {
+    color: blue;
+    text-decoration: none;
+}
+.form__line{
+    margin: 20px 0px;
+    width: 364px;
+}
+.form__create-new-account {
+    padding: 15px 0px;
+    height: 54px;
+    width: 192px;
+    background-color: rgb(63, 179, 40);
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+.create-new-account-btn {
+    background-color:  rgb(63, 179, 40);
+    border: none;
+    width: 100%;
+    height: 24px;
+    padding: 0px 6px;
+    color: white;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.form__create-page {
+    margin-top: 28px;
+    
+}
+.form__create-page a {
+    text-decoration: none;
+    color: black;
+}
+.footer {
+    width: 100%;
+    height: 160px;
+    font-size: 12px;
+    margin: 0px 40px;
+    padding-top: 20px;
+    
+}
+.footer__language-list {
+    width: 851px;
+    display: flex;
+    list-style-type: none;
+    line-height: 16px;
+    flex-wrap: wrap;
+    margin: 0px 100px;
+    padding-top: 8px;
+    
+}
+.footer__language-list li{
+    display: inline-block;
+    margin-right: 12px;
+    color: rgb(115, 115, 115);
+}
+
+.footer__nav-links {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+    line-height: 19.2px;
+}
+
+.footer__nav-links li{
+    display: inline-block;
+    margin-right: 12px;
+    color: rgb(115, 115, 115);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+}
+
+#content-curve {
+    width: 100%;
+    padding: 7px 100px;
+}
+
+.footer button {
+    padding: 0px 6px;
+    border-color: rgb(95, 6, 6);
+    border-radius: 2px;
+    border: 0.3px solid rgb(203, 205, 205);
+    color: rgb(76, 76, 76);
+    transform: scale(1.2);
+}
