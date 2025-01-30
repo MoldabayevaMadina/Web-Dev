@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", SegoeUI,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+.block1 {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.logo {
+    margin: 13px 25px 10px 72px;
+    cursor: pointer;
+}
+.block1__left {
+    display: flex;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+.block1__right {
+    display: flex;
+    list-style-type: none;
+    margin: 15px 0px 0px 60px;
+}
+.block1__icon {
+    cursor: pointer;
+}
+.block1 li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    padding: 16px 8px 10px 8px;
+    margin-right: 4px;
+
+}
+.block1__icon {
+    margin: 0px 10px;
+}
+.block2 {
+    height: 59px;
+    background-color: rgb(0, 103, 184);
+    text-align: center;  
+    line-height: 59px;  
+}
+.block2 a{
+    margin: auto auto;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.block3 {
+    height: 550px;
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP4-1399x600');
+    background-repeat: no-repeat; 
+    position: relative;
+}
+.block3__subblock {
+    position: absolute;  
+    top: 47px;        
+    left: 58px; 
+    padding: 48px;
+    background-color: white;
+    height: 280px;
+    width: 450px;
+}
+.block3 h2 {
+    font-weight: 600;
+    font-size: 29px;
+    margin-bottom: 16px;
+}
+.block3__btn {
+    background-color: rgb(0, 103, 184);
+    margin-top: 24px;
+    height: 40px;
+    width: 103px;
+    text-align: center;  
+    line-height: 40px;
+    border-radius: 2px;
+}
+.block3 a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    margin: 8px 0px;
+    font-weight: 600;
+}
+.pages {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;  /*по горизонтали*/
+    justify-content: center;
+    margin-top: 20px;
+}
+.pages__pause, .pages__left, .pages__right, .pages__marker {
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.block4 {
+    display: flex;
+    padding: 20px 50px;
+    flex-wrap: wrap;  /* перенос на след строку */
+    justify-content: center; /* выравнивание по верт */
+}
+.block4__subblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 16px 24px;
+    white-space: nowrap;
+}
+
+.block4__subblock a {
+    font-weight: 500;
+    color: rgb(0, 103, 184);
+}
+.block5 {
+    display: flex;
+    margin: 0px 50px;
+}
+.block5__subblock {
+    display: flex;
+    flex-direction: column;
+    /* height: fit-content; */
+    position: relative;
+    height: 470px;
+    margin: 10px; 
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 7px 0px, rgba(0, 0, 0, 0.11) 0px 1px 2px 0px;
+    /* padding: 0px 24px; */
+}
+
+.block5__subblock-btn {
+    background-color: rgb(0, 103, 184);
+    padding: 8px 12px;
+    border-radius: 2px;
+    width: fit-content;
+    height: fit-content;
+    margin: 8px 20px;
+    float: bottom;
+    position: absolute;
+    bottom: 20px;
+}
+
+.block5__subblock-btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.block5__subblock h2 {
+    margin: 35px 20px 5px 20px; 
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.block5__subblock p {
+    margin: 10px 20px; 
+}
