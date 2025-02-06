@@ -7,8 +7,8 @@ function isEmpty(obj) {
 
 let schedule = {};
 
-alert( isEmpty(schedule) ); // true
+alert( isEmpty(schedule) ); 
 
 schedule["8:30"] = "get up";
 
-alert( isEmpty(schedule) ); // false
+alert( isEmpty(schedule) ); 
