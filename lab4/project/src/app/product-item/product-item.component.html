@@ -1,0 +1,21 @@
+<section>
+    <a [href]="product.link" class="kaspi-link">
+        <h3 class="product-name">{{ product.name }}</h3>
+    </a>
+    <div class="image">
+        <img [src]="product.image" alt="image" class="product-image">
+    </div>
+    
+    <p class="product-price"><b>Price:</b> {{ product.price }}₸</p>
+    <p class="product-rating"><b>Rating:</b> {{ product.rating }}</p>
+    
+    <div class="share">
+        <p>Share on: </p>
+        <a [href]="'https://wa.me/?text=' + product.link" target="_blank" class="share-link">
+            <img src="whatsapp-icon.png" alt="Share on WhatsApp" class="icon">
+        </a>
+        <a [href]="'https://t.me/share/url?url=' + product.link" target="_blank" class="share-link">
+            <img src="telegram-icon.png" alt="Share on Telegram" class="icon">
+        </a>
+    </div>
+</section>
