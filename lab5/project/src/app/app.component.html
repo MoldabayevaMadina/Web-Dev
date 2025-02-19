@@ -1,0 +1,12 @@
+<div class="header">
+  <img class="home-logo" src="Home.png" alt="Home page logo" width = "40px">
+  <h2>PRODUCTS</h2>
+</div>
+<div class="categories">
+  @for (category of categories; track category.id){
+    <button (click) = "filterProducts(category.name)">{{ category.name }}</button>
+  }
+</div>
+
+<app-product-list [products] = "FilteredProducts" (deleteEvent) = "Delete($event)"></app-product-list>
+
