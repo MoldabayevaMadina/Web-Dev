@@ -1,0 +1,11 @@
+.change-title {
+    margin: 20px 0px;
+}
+#return-back, #see-photos {
+    margin: 10px;
+    height: 30px;
+}
+#see-photos {
+   background-color: rgb(125, 209, 125);
+   border: 0.5px solid black;
+}
