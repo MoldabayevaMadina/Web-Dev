@@ -13,9 +13,12 @@ import { CommonModule } from '@angular/common';
 export class AlbumPhotosComponent {
   albumsService: AlbumsService = inject(AlbumsService);
   photoList: Photo[] = [];
+  route: ActivatedRoute = inject(ActivatedRoute);
   constructor() {
-    // this.photoList = this.albumsService.getPhotos();
-    // console.log(this.photoList)
+  }
+  ngOnInit(): void {
+    const albumId = Number(this.route.snapshot.paramMap.get('id'));
+    this.albumsService.getPhotosByAlbumId(albumId).subscribe(data => this.photoList = data);
   }
  
- }
+}
