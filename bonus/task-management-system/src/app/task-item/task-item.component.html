@@ -1,0 +1,7 @@
+<section>
+    <a [routerLink]="['/task', id]">{{ id }}. {{ title }}.</a> 
+    <p>Status: {{status}}</p>
+
+    <button (click)="markAsCompleted()" [disabled]="status === 'Completed'">Complete</button>
+    <p id='deadline-check' *ngIf="DeadlineCheck()">Deadline is passed!</p>
+</section>

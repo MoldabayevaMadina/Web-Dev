@@ -1,0 +1,8 @@
+<div class="task-detail">
+    <h2>{{ task.title }}</h2>
+    <p><strong>Description:</strong> {{ task.description }}</p>
+    <p><strong>Category:</strong> {{ task.category }}</p>
+    <p><strong>Status:</strong> {{ task.status }}</p>
+    <p><strong>Deadline:</strong> {{ task.deadline | date:'short' }}</p>
+    <button  routerLink="..">Return back</button>
+</div>
