@@ -1,0 +1,8 @@
+venv_shop/
+
+__pycache__/
+*.pyc
+*.pyo
+
+.vscode/
+.idea/
