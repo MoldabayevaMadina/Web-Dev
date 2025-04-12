@@ -1,0 +1,11 @@
+<h1>Companies</h1>
+<ul>
+  <li *ngFor="let company of companies">
+    <button (click)="companySelected(company)">{{company.name}}</button>
+    <ul *ngIf="vacanciesVisible && company.id == selectedCompanyID">
+      <li *ngFor="let vacancy of vacancies">
+        {{vacancy.name}}
+      </li>
+    </ul>
+  </li>
+</ul>
